@@ -3,14 +3,16 @@ a=int(input("a= "))
 b=int(input("b= "))
 a0=a
 i=0
-i+=a
+# i+=a
 s=0
 while a<=b:
     s+=a
     a+=1
     i+=1
-    print("sum= ", s)
-    print("sr= ",s/(b-a0+1))
+print("sum= ", s)
+# print("sr= ",s/(b-a0+1))
+print("sr= ",s/i)
+
     
     
  
